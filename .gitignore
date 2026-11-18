@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build artifacts & executables
+build/
+dist/
+
+# Downloaded speech models and model cache
+models/
+*.bin
+*.pt
+*.onnx
+
+# Saved transcripts & logs
+transcript-*.txt
+*.log
+
+# Environment variables & secrets
+.env
+.env.*
+
+# OS files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
